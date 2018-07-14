@@ -1,0 +1,13 @@
+name: packageexplorer
+title: packageexplorer
+username:
+account: joycerobbins
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 380998
+bundleId: 1480633
+url: https://joycerobbins.shinyapps.io/packageexplorer/
+when: 1531587954.24655
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: create_package_igraph.R|README.md|scripts.R|packagetars/dplyr_0.7.6.tar.gz|packages
