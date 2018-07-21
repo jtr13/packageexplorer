@@ -27,13 +27,15 @@ ui <- fluidPage(
       ),
 
       h4("Notes: "),
-      p("* When plot renders, hover, click, or choose a function from the dropdown box to see reverse function dependencies. Right click in browser to save image."),
-      p("* Large packages may take a minute or more to load."),
-      p("* Misses functions called in purrr::map statements and similar (to be fixed)"),
-      p("* For more info on rendering function, see:"),
-      a("http://rpubs.com/jtr13/vis_package", href = "http://rpubs.com/jtr13/vis_package", target = "_blank")
+      p("* IT'S ALL ABOUT THE SUBGRAPHS: Hover or click a node, or choose a function from the dropdown box, to see reverse function dependencies for that function only."),
+        p("* TO SAVE IMAGE: Right click in browser."),
+      p("* CAVEAT: Misses functions called in purrr::map statements and similar (to be fixed)"),
+      span("* For more info on rendering function, see:"),
+      a("http://rpubs.com/jtr13/vis_package", href = "http://rpubs.com/jtr13/vis_package", target = "_blank"), br(), br(),
+    span("* Source code:"),
+    a("http://www.github.com/jtr13/packageexplorer", href = "http://www.github.com/jtr13/packageexplorer", target = "_blank")
 
-    ),
+  ),
 
     mainPanel(
 
