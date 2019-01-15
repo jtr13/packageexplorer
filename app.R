@@ -28,20 +28,19 @@ ui <- fluidPage(
 
       h4("Notes: "),
       p("* IT'S ALL ABOUT THE SUBGRAPHS: Hover or click a node, or choose a function from the dropdown box, to see reverse function dependencies for that function only."),
-        p("* TO SAVE IMAGE: Right click in browser."),
+        p("* TO SAVE IMAGE: Right click while hovering on selected node."),
       p("* CAVEAT: Misses functions called in purrr::map statements and similar (to be fixed)"),
       span("* For more info on rendering function, see:"),
       a("http://rpubs.com/jtr13/vis_package", href = "http://rpubs.com/jtr13/vis_package", target = "_blank"), br(), br(),
     span("* Source code:"),
-    a("http://www.github.com/jtr13/packageexplorer", href = "http://www.github.com/jtr13/packageexplorer", target = "_blank")
+    a("http://www.github.com/jtr13/packageexplorer", href = "http://www.github.com/jtr13/packageexplorer", target = "_blank"),
+    p("* To improve speed, package info is stored. Last update: Jan. 15, 2019")
 
   ),
 
     mainPanel(
 
       titlePanel("Tidyverse Function Dependency Explorer"),
-
-      p("Package location:"),
 
       verbatimTextOutput('directorypath'),
 
