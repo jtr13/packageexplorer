@@ -3,7 +3,7 @@
 source("create_package_igraph.R")
 
 # set package name here:
-pkgname <- "stringr"
+pkgname <- "tidyr"
 
 pkginfo <- download.packages(pkgname, tempdir())
 
