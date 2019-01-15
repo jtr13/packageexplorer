@@ -5,9 +5,9 @@ account: joycerobbins
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 380998
-bundleId: 1492821
+bundleId: 1815731
 url: https://joycerobbins.shinyapps.io/packageexplorer/
-when: 1532190648.9476
+when: 1547569531.27858
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: create_package_igraph.R|README.md|scripts.R

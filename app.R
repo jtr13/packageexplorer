@@ -1,17 +1,10 @@
 library(shiny)
-library(shinyWidgets)
 library(visNetwork)
 
 pkgs <- list.files("data")
 igraphs <- lapply(file.path("data", pkgs), readRDS)
 
 ui <- fluidPage(
-
-  setBackgroundColor(
-    color = c("#F7FBFF", "#2171B5"),
-    gradient = "linear",
-    direction = "bottom"
-  ),
 
   sidebarLayout(
 
